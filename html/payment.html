@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+</head>
+
+<body>
+    <div>
+        <h1>payment!!</h1>
+        <div>
+            <label>id</label><br />
+            <input type="number" id="id">
+        </div><br />
+        <div>
+            <label>sum</label><br />
+            <input type="text" id="sum">
+        </div><br />
+        <div>
+            <label>description</label><br />
+            <input type="text" id="description">
+        </div><br />
+        <div>
+            <label>status</label><br />
+            <input type="text" id="status">
+        </div><br />
+        <div>
+            <label>typePayment</label><br />
+            <select id="typePayment">
+                <option value="creditCard">creditCard</option>
+                <option value="clearingCompany">clearingCompany</option>
+                <option value="other">other</option>
+            </select>
+            <div><br />
+                <h3>user</h3>
+                <div>
+                    <label>id</label><br />
+                    <input type="text" id="id">
+                </div><br />
+                <div>
+                    <label>first name</label><br />
+                    <input type="text" id="fName">
+                </div><br />
+                <div>
+                    <label>last name</label><br />
+                    <input type="text" id="lName">
+                </div><br />
+                <div>
+                    <label>phoneNumber</label><br />
+                    <input type="text" id="phoneNamber">
+                </div><br />
+                <div>
+                    <label>email</label><br />
+                    <input type="email" id="email">
+                </div><br />
+                <div>
+                    <label>address</label><br />
+                    <input type="text" id="address">
+                </div><br />
+            </div>
+            <input type="button" value="submit payment" onclick="pay()">
+        </div>
+</body>
+<script src="../js/user.js"></script>
+<script src="../js/payment.js"></script>
+<script src="../js/paymentFunctinality.js"></script>
+</html>
